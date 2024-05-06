@@ -11,7 +11,7 @@ public class Main {
                 INSTRUCTIONS:
                 - For each round, a random whole number would be chosen from 1 and 100(inclusive) by the computer.
                 - A player has 5 attempts to guess the correct number.
-                - After each wrong guess, yu would be given a hint if your guess is less or greater than the number.
+                - After each wrong guess, you would be given a hint if your guess is less or greater than the number.
                 - If a player fails to guess the number in 5 attempts, the round is lost.
                 - Final score is calculated based on rounds won.
                 - Press enter to start
@@ -95,9 +95,6 @@ public class Main {
     }
 
     public static int readPlayerGuess() {
-        /**
-         * Reads player guess and return it as int
-         */
         int guess;
         while(true) {
             try {
